@@ -1,13 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>#1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="text-center text-white pt-5">Guess The Number</h1>
+        <h4 class="text-center text-white ">( Between 1-50 )</h4>
+    </div>
+    <div class="row d-flex justify-content-center mt-5 pb-5">
+        <div class="text-dark TitleRandomName bg-white d-flex justify-content-center p-1">Random Number ▼</div>
+        <div class="col-2 RandomName text-dark bg-white d-flex justify-content-center p-5"><strong>?</strong></div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-4 ps-5 d-flex flex-column">
+            <input type="number" class="Guess"><br>
+            <button class="btn bg-success text-white check mt-4 text-white p-4">Guess The Number</button>
+        </div>
+        <div class="col-8 text-center">
+            <p class="Massage text-white">Start Guessing...</p>
+            <p class="Text-Score text-white">
+                Score : <span class="Score text-white">15</span>
+            </p>
+            <p class="Text-HighScore text-white">
+                Highscore : <span class="HighScore text-white">0</span>
+            </p>
+        </div>
+    </div>
+</div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

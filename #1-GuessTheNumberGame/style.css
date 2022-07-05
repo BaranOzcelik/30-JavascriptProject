@@ -1,0 +1,21 @@
+body{ 
+    background: #e74c3c !important; 
+}
+.TitleRandomName{
+    font-size: 32px;
+}
+.RandomName{
+    font-size: 32px;
+}
+.Guess{
+    height: 150px;
+    font-size: 32px;
+    background-color: #e74c3c;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+}
+input, select, textarea{
+    color: #fff;
+    font-size: 32px;
+}
