@@ -4,10 +4,11 @@ body{
 .TitleRandomName{
     font-size: 32px;
 }
-.RandomName{
+.number{
     font-size: 32px;
 }
-.Guess{
+.guess{
+
     height: 150px;
     font-size: 32px;
     background-color: #e74c3c;
@@ -18,4 +19,9 @@ body{
 input, select, textarea{
     color: #fff;
     font-size: 32px;
+}
+.message{
+    font-size: 32px;
+    border-bottom: 5px solid;
+    padding-bottom: 10px;
 }

@@ -9,26 +9,29 @@
 </head>
 <body>
 <div class="container-fluid">
+    <div class="col m-3">
+        <button class="again btn p-3 bg-white bold">Try Again</button>
+    </div>
     <div class="row">
-        <h1 class="text-center text-white pt-5">Guess The Number</h1>
-        <h4 class="text-center text-white ">( Between 1-50 )</h4>
+        <h1 class="title text-center text-white pt-5">Guess The Number</h1>
+        <h4 class="titlebetween text-center text-white ">Between 1-50</h4>
     </div>
     <div class="row d-flex justify-content-center mt-5 pb-5">
-        <div class="text-dark TitleRandomName bg-white d-flex justify-content-center p-1">Random Number ▼</div>
-        <div class="col-2 RandomName text-dark bg-white d-flex justify-content-center p-5"><strong>?</strong></div>
+        <div class="text-dark TitleRandomName bg-white d-flex justify-content-center p-1">▼ Random Number ▼</div>
+        <div class="col-2 number text-dark bg-white d-flex justify-content-center p-5 rounded-bottom"><strong>?</strong></div>
     </div>
     <div class="row mt-5">
         <div class="col-4 ps-5 d-flex flex-column">
-            <input type="number" class="Guess"><br>
-            <button class="btn bg-success text-white check mt-4 text-white p-4">Guess The Number</button>
+            <input type="number" class="guess text-center"><br>
+            <button class="check btn bg-success text-white mt-4 text-white p-4">Guess The Number</button>
         </div>
         <div class="col-8 text-center">
-            <p class="Massage text-white">Start Guessing...</p>
+            <p class="message text-white">Start Guessing...</p>
             <p class="Text-Score text-white">
-                Score : <span class="Score text-white">15</span>
+                Score : <span class="score text-white">50</span>
             </p>
             <p class="Text-HighScore text-white">
-                Highscore : <span class="HighScore text-white">0</span>
+                Highscore : <span class="highscore text-white">0</span>
             </p>
         </div>
     </div>
